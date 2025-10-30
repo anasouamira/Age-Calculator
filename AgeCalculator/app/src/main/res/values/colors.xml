@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="BgColor">#76c893</color>
+    <color name="BleuText">#184e77</color>
+    <color name="btnBgColor">#d9ed92</color>
+    <color name="SelDateColor">#fbf8cc</color>
+    <color name="ResultColor">#C9ADA7</color>
+
+</resources>

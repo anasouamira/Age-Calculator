@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/BgColor"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="25dp"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="CALCULATE YOUR"
+        android:textColor="@color/BleuText"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="AGE"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:background="@color/BleuText"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="IN MINUTES"
+        android:textColor="@color/BleuText"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#a7c957"
+        android:text="Date Selected : "
+        android:textColor="#616161"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvSelectedDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="28/10/2025"
+        android:textColor="@color/BleuText"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#a7c957"
+        android:text="Result : "
+        android:textColor="#616161"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvDateInMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="60"
+        android:padding="5dp"
+
+        android:background="#22223b"
+        android:textColor="@color/ResultColor"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        />
+
+    <Button
+        android:id="@+id/BtnDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECTE DATE"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:backgroundTint="@color/btnBgColor"
+        android:textColor="@color/BleuText"
+        />
+
+
+
+</LinearLayout>
